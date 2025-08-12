@@ -1,0 +1,144 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: linear-gradient(to right, #d42b7d, #cb7615, #5fcea9);
+}
+
+h1 {
+  font-family: "Tourney", sans-serif;
+  color: #32094e;
+  text-align: center;
+  font-size: 70px;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  color: #25013c;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 2em; 
+  font-size: 43px;
+  font-family: "Oswald", sans-serif;
+  
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;  /*
+  margin-top: 2em;
+  margin-bottom: 10em;
+  flex-wrap: wrap; */
+  
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 15em;
+  border-radius: 25px;
+  border: 12px solid black; 
+}
+
+/* STYLE BUTTON */
+button { 
+  color: black;
+   width: fit-content;
+  background-color: #669d34;
+  font-family: "Delius Swash Caps", sans-serif;
+  border: 6px solid #0a4600;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 5px; 
+  font-weight: bold;
+}
+
+
+.answer-choice {
+  align-items: center; 
+   display: flex;
+  flex-direction: column;
+
+  /*
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin: 40px 0;  */
+}
+
+
+#displayResult {
+  margin-top: 2em;
+  background-color: #cd2e23;
+  border: 7px solid #3d0520;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Tourney", sans-serif;
+  padding: 5px;
+  align-items: center;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.tourney-<uniquifier> {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#Pete {
+  width: fit-content;
+}
+
+#q5a4 {
+  width: 180px;
+}
+
+/*
+#horseInfo
+{
+  position: relative;
+  top: ;
+  left: ;
+  width: 210%;
+  color: #eeb463;              
+  font-family: cursive;
+  font-size: 20px;
+  background-color: rgb(166, 100, 7, 0.8);  
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; 
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s;
+}
+
+#Horse :hover #horseInfo {
+  visibility: visible;
+  opacity: 1;
+}
